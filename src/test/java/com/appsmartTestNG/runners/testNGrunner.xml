@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppSmartTestNG" verbose="1">
+    <test name="SearchAndDelivery">
+        <classes>
+            <class name="com.appsmartTestNG.tests.DeliveryTest"></class>
+            <class name="com.appsmartTestNG.tests.SearchTest"></class>
+        </classes>
+    </test>
+</suite>
